@@ -69,6 +69,8 @@ ul.plain li:before { content: "✓"; position: absolute; left: 4px; color: var(-
 .price-table tr:last-child td, .price-table tr:last-child th { border-bottom: 0; }
 .price-note { text-align: center; color: var(--muted); font-size: 13px; margin-top: 14px; }
 .big-price { font-size: 20px; font-weight: 700; color: var(--brand); }
+.old-price { text-decoration: line-through; color: var(--muted); font-size: 14px; }
+.price-sub { color: var(--muted); font-size: 13px; }
 
 /* FAQ */
 .faq { max-width: 680px; margin: 0 auto; }
